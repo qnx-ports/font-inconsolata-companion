@@ -4,7 +4,7 @@
 #
 pkgname=font-inconsolata
 pkgver=3.000
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Inconsolata fonts"
 url="https://www.google.com/fonts/specimen/Inconsolata"
 license="OFL"
@@ -25,7 +25,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 47721eb281ce89ec7b66bba4480cacdd9543405352660f12c2fdfe2e1d3e18f74685fbe68708fee3ee849eb36364add76cb59fdaa9835365691fd46a87f9123e  font-inconsolata-3.000.zip
 "
